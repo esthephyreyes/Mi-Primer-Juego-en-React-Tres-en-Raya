@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(to bottom, #002b7f, #ffffff, #ce1126);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.title {
+  color: #000;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 8px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid #000;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.square.x {
+  color: red;
+}
+
+.square.o {
+  color: blue;
+}
+
+.status {
+  margin: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 10px;
+}
+
+.score {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.score.x {
+  color: red;
+}
+
+.score.o {
+  color: blue;
+}
+
+.reset {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #002b7f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.reset.all {
+  background-color: #ce1126;
+}
+
+.reset:hover {
+  opacity: 0.9;
+}
+
+.mensaje-final {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+}
