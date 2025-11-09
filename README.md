@@ -1,4 +1,3 @@
-<img width="1350" height="689" alt="image" src="https://github.com/user-attachments/assets/2338a088-7071-42d2-9b20-10303cad77eb" />
 Mi Primer Juego en React – Tres en Raya
 Nombre
 Estefany Altagracia Reyes Lora
@@ -35,3 +34,4 @@ Abro la carpeta del proyecto.
 Escribo los comandos:
 npm install
 npm run dev
+<img width="1350" height="689" alt="image" src="https://github.com/user-attachments/assets/2338a088-7071-42d2-9b20-10303cad77eb" />
