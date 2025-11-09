@@ -32,6 +32,8 @@ Otra parte que me costó fue hacer que el marcador funcionara sin que se reinici
 Cómo se ejecuta
 Abro la carpeta del proyecto.
 Escribo los comandos:
+
 npm install
+
 npm run dev
 <img width="1350" height="689" alt="image" src="https://github.com/user-attachments/assets/2338a088-7071-42d2-9b20-10303cad77eb" />
